@@ -2,7 +2,7 @@ import express, { Express } from 'express'
 import dotenv from 'dotenv'
 import helmet from 'helmet'
 import morgan from 'morgan'
-import { ROOT_ROUTE } from './routes/root'
+import { ROOT_ROUTE } from './routes'
 import { notFoundRoute } from 'middleware/fourOhFour'
 import { errorHandler } from 'middleware/errorHandler'
 
